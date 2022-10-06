@@ -22,5 +22,5 @@ jobs:
             "Image": "Test-Image"
           }
       env:
-        SLACK_WEBHOOK_URL: https://hooks.slack.com/workflows/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
+        SLACK_WEBHOOK_URL: ${{secrets.slackWebHook}}
 
